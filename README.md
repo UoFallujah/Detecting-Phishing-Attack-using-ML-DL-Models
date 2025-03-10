@@ -2,7 +2,7 @@
 Developed a model to detect Phished emails from legitimate ones  using the Spam Assassin dataset. Extracted relevant features by processing the mails using the NLP  toolkit. Built various ML models like Naïve Bayes, Random Forest, and Voting  Ensemble with the best accuracy of ~72%, and deep learning  model like Neural Network with an accuracy of ~96%. 
 ### Overview
 
-Phishing is when cybercriminals send malicious emails designed to trick people into falling for a scam. The intent is often to get users to reveal financial information, system credentials, or other sensitive data. The term “Phishing” came about in mid-1990’s, when hackers began using fraudulent emails to fish for information from unsuspecting users. Cybercriminals use phishing because it’s easy, cheap and effective. Email addresses are easy to obtain and emails are virtually free to send. With little effort and little cost, attackers can quickly gain access to valuable data. We can detect these emails and detect them as spam and reduce these attacks. To do this we can use various machine learning and deep learning models.
+Phishing is when cybercriminals send malicious emails designed to trick people into falling for a scam. The intent is often to get users to reveal financial information, system credentials, or other sensitive data. The term “Phishing” came about in the mid-1990s, when hackers began using fraudulent emails to fish for information from unsuspecting users. Cybercriminals use phishing because it’s easy, cheap, and effective. Email addresses are easy to obtain and emails are virtually free to send. With little effort and cost, attackers can quickly access valuable data. We can detect these emails and detect them as spam, and reduce these attacks. To do this, we can use various machine learning and deep learning models.
 
 ![amazon](https://user-images.githubusercontent.com/33484737/118261797-b1dac080-b4d1-11eb-997d-f50c1d8952ca.jpg)
 
@@ -12,9 +12,25 @@ Phishing is when cybercriminals send malicious emails designed to trick people i
 
 ### Email Dataset 
 
-An experiment is conducted in order to identify the input/output behavior of the system. We have collected data from 2 different datasets. The datasets are SpamAssassin and spam/ham. These datasets are open-source and are freely available. The dataset collected in the experiment are identified and given in Table 4.1. Below table shows the total count of dataset and number of phished and legitimate emails present in those datasets which we have further used to train our model.
+An experiment is conducted to identify the system's input/output behavior. We have collected data from 2 different datasets. The datasets are SpamAssassin and spam/ham. These datasets are open-source and are freely available. The dataset collected in the experiment is identified and given in Table 4.1. The table below shows the total count of the dataset and several phished and legitimate emails present in those datasets, which we have further used to train our model.
 
 ![Dataset](https://user-images.githubusercontent.com/33484737/118262892-26fac580-b4d3-11eb-99d7-acecebe3581b.jpg)
+
+### Usages
+```
+git clone https://github.com/fennybz/Detecting-Phishing-Attack-using-ML-DL-Models.git
+cd Detecting-Phishing-Attack-using-ML-DL-Models
+```
+## Make Virsual Envieronemnt&Activate it
+```
+python -m venv mail
+mail\Scripts\activate
+```
+## Install requirements 
+```
+notepad requirements.txt
+pip install -r requirements.txt
+```
 ### Implementation
 
 1. Accessing the .py file and running Phishector code.
@@ -29,10 +45,10 @@ An experiment is conducted in order to identify the input/output behavior of the
 4. Choosing choice 1 leads to the extracted features of the emails.
 ![4](https://user-images.githubusercontent.com/33484737/118262873-219d7b00-b4d3-11eb-989a-536c99d187e8.jpg)
 
-5. Choosing choice 2 provides classification using Deep learning ie Neural network.
+5. Choosing choice 2 provides classification using Deep learning, ie, Neural network.
 ![5](https://user-images.githubusercontent.com/33484737/118262877-22cea800-b4d3-11eb-9a22-f4c8ba2d0237.jpg)
 
-6. Choosing choice 3 provides ML models menu.
+6. Choosing choice 3 provides an ML models menu.
 ![6](https://user-images.githubusercontent.com/33484737/118262879-23673e80-b4d3-11eb-9ceb-7e70a6acade9.jpg)
 
 7. Choice 3 in ML models menu provides classification using Extra trees model.
